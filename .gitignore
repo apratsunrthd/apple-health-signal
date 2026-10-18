@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+# Never commit a real export
+apple_health_export/
+!sample/apple_health_export/
+export.xml
+!sample/apple_health_export/export.xml
