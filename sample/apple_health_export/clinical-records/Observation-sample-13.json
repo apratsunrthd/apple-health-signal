@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "sample-13",
+  "status": "final",
+  "code": {
+    "text": "AST (SGOT)"
+  },
+  "effectiveDateTime": "2026-09-08T16:00:00.000Z",
+  "valueQuantity": {
+    "value": 19,
+    "unit": "U/L"
+  },
+  "referenceRange": [
+    {
+      "high": {
+        "value": 40,
+        "unit": "U/L"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "sample-6",
+  "status": "final",
+  "code": {
+    "text": "Cholesterol, Total"
+  },
+  "effectiveDateTime": "2025-09-08T16:00:00.000Z",
+  "valueQuantity": {
+    "value": 214,
+    "unit": "mg/dL"
+  },
+  "referenceRange": [
+    {
+      "high": {
+        "value": 200,
+        "unit": "mg/dL"
+      }
+    }
+  ]
+}

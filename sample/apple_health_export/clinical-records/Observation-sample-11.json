@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "sample-11",
+  "status": "final",
+  "code": {
+    "text": "Hemoglobin A1c"
+  },
+  "effectiveDateTime": "2026-09-08T16:00:00.000Z",
+  "valueQuantity": {
+    "value": 5.4,
+    "unit": "%"
+  },
+  "referenceRange": [
+    {
+      "low": {
+        "value": 4,
+        "unit": "%"
+      },
+      "high": {
+        "value": 5.6,
+        "unit": "%"
+      }
+    }
+  ]
+}

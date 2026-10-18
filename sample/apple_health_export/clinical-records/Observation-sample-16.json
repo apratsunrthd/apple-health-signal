@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "sample-16",
+  "status": "final",
+  "code": {
+    "text": "Hemoglobin"
+  },
+  "effectiveDateTime": "2026-09-08T16:00:00.000Z",
+  "valueQuantity": {
+    "value": 14.1,
+    "unit": "g/dL"
+  },
+  "referenceRange": [
+    {
+      "low": {
+        "value": 13,
+        "unit": "g/dL"
+      },
+      "high": {
+        "value": 17.5,
+        "unit": "g/dL"
+      }
+    }
+  ]
+}

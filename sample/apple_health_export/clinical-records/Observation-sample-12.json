@@ -1,0 +1,21 @@
+{
+  "resourceType": "Observation",
+  "id": "sample-12",
+  "status": "final",
+  "code": {
+    "text": "ALT (SGPT)"
+  },
+  "effectiveDateTime": "2026-09-08T16:00:00.000Z",
+  "valueQuantity": {
+    "value": 22,
+    "unit": "U/L"
+  },
+  "referenceRange": [
+    {
+      "high": {
+        "value": 45,
+        "unit": "U/L"
+      }
+    }
+  ]
+}
