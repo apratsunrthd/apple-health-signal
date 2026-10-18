@@ -10,7 +10,7 @@
 - [ ] Add a print / share-as-image view of the Start / Stop / Continue card.
 
 ## For a human
-- [ ] Review the repo, then make it public (`gh repo edit apratsunrthd/apple-health-signal --visibility public --accept-visibility-change-consequences`).
-- [ ] After it's public: enable GitHub Pages (Settings → Pages → deploy from `main`, root) for a zero-install hosted link.
+- [ ] GitHub → Settings → Emails: turn on **Keep my email addresses private** and **Block command line pushes that expose my email**.
+- [ ] Optional: ask GitHub Support to purge the orphaned commit `77d3aad` (old merge commit still reachable from PR #1; its author email is the private address).
 - [ ] Decide commercial license pricing and a contact channel; update COMMERCIAL.md if it should be email instead of GitHub issues.
 - [ ] Optional: have a lawyer confirm PolyForm Noncommercial fits the monetization plan.

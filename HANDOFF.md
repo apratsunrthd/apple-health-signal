@@ -27,5 +27,8 @@ node scripts/make-sample-export.mjs   # rewrite sample/apple_health_export
 - The sample person's height and goal come from `SAMPLE_PROFILE` and apply only while `state.isDemo` is true.
 - `renderOverview` re-runs on window resize.
 
+- **Merging PRs:** don't use GitHub's web or API merge button. It authors the merge commit with the owner's private account email. Fast-forward instead: `git push origin <branch>:main` (GitHub marks the PR merged). Commits must use the repo-local no-reply identity (`git config user.email` is set in this clone).
+- Pushing to `main` deploys GitHub Pages automatically.
+
 ## Open threads
-- The repo is private pending owner review. Making it public and enabling Pages are human steps (TODO.md).
+- None blocking. See TODO.md.

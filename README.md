@@ -2,6 +2,8 @@
 
 Turn your Apple Health export into plain-language findings and a **Start / Stop / Continue** action list, computed entirely in your browser.
 
+**Try it:** <https://apratsunrthd.github.io/apple-health-signal/> (no sign-up, no API key, nothing uploaded).
+
 ![Overview: Start, Stop, Continue directives and findings](docs/overview.png)
 
 ## What it does
@@ -20,7 +22,7 @@ A fictional sample person loads on first visit so you can explore before uploadi
 
 ## Privacy
 
-Your files never leave your device. The page is a single static HTML file with no backend, analytics, or third-party scripts (only Google Fonts). Parsed data is saved in your browser's IndexedDB so it survives a refresh; **Clear my data** removes it.
+Your files never leave your device. The page is a single static HTML file with no backend, analytics, AI/API calls, or third-party scripts (only Google Fonts), so there are no keys or accounts to set up. Parsed data is saved in your browser's IndexedDB so it survives a refresh; **Clear my data** removes it.
 
 ## Use it
 

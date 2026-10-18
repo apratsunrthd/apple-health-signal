@@ -5,7 +5,8 @@ A public, privacy-first web app that turns anyone's Apple Health export into fin
 
 ## Current state (2026-10-18)
 - **Works:** streaming `export.xml` parser (smoke-tested on a real 3.6 GB export: about 19 s with no errors), FHIR `clinical-records/` labs, dietary and energy parsing, a fictional sample person, 8 tabs, the rules engine, IndexedDB persistence, and a sample export generator. 21 tests pass in CI.
-- **Visibility:** the GitHub repo is **private** until the owner reviews it, then it flips to public.
+- **Visibility:** public since 2026-10-18 and hosted on GitHub Pages at https://apratsunrthd.github.io/apple-health-signal/ (deploys from `main`, root).
+- **No external services:** no API keys, LLM calls, or backend. The only network request is Google Fonts.
 - **License:** PolyForm Noncommercial 1.0.0; commercial use needs a paid license (COMMERCIAL.md).
 
 ## Key decisions
